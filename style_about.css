@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fasthand', cursive;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_left .profilePics{
+    background-image: url(image/cc59a1b45e9b4bc7a183aed15fb98bc7.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 32%;
+    height: 96%;
+    margin-top: 2px;
+}
+.nav_left, .nav_mid{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+}
+
+.nav_right{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.nav_right a{
+    border-radius: 10px;
+    width: 20%;
+    height: 55%;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.nav_right a:hover{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+main .about{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 25em;
+    padding: 5%;
+    margin-top: 7%;
+
+}
+
+main .about h1{
+    font-size: 7em;
+}
+
+main .about hr{
+    border-image: linear-gradient(to right, white, black, white) 1;
+}
+
+main .a_header h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+main .a_body{
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    padding: 0 2.5%;
+}
+
+main .a_body .body_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100vw;
+    height: 12.5vh;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-image: linear-gradient(to right, white, black, white, black) 1;
+}
+
+.footer_main div{
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 49%;
+    height: 100%;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.footer_main .social_con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_main a{
+    margin: 1.5%;
+}
+
+.footer_main a:hover{
+    transform: scale(1.2);
+}
